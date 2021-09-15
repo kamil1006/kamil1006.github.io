@@ -1,0 +1,302 @@
+body {
+
+    font-family: sans-serif;
+    margin: 5px;
+    padding: 5px;
+    background-color: black;
+}
+
+#naglowek{
+
+    background: url('images/bg.jpg');
+    background-repeat: no-repeat;
+
+
+    border: 4px solid gray;
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+
+    display: flex;
+    align-items: flex-end;
+
+}
+#dom{
+    background-color: gray;
+
+}
+
+#tytul{
+    color: whitesmoke;
+    font-size: 32px;
+    text-align: left;
+    width: 40%;
+    margin-left: 20px;
+
+
+}
+
+#aboutsection, #aboutsection2 {
+    background-color: gray;
+    border: 4px solid gray;
+    width: 100%;
+    min-height: 500px;
+
+    display: flex;
+    margin-bottom:10px;
+    padding-bottom: 5px;
+
+
+    word-break: break-all;
+    word-wrap    : break-word;
+    overflow-wrap: break-word;
+
+}
+
+#obrazy{
+    display: flex;
+
+
+
+}
+
+
+
+#piktur1{
+
+    width: 200px;
+    height: 200px;
+    position:relative;
+    left: 50px;
+    top: 50px;
+
+}
+#piktur2{
+
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 10px;
+    top: 100px;
+
+}
+#piktur3{
+
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 0px;
+    top: 150px;
+
+}
+
+
+#abouttytul{
+    font-size: 32px;
+    position:relative;
+    right: 0px;
+
+
+}
+
+
+#about{
+    position:relative;
+    top: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+
+    word-break: break-all;
+    word-wrap    : break-word;
+    overflow-wrap: break-word;
+
+}
+
+
+.portfolio{
+    display: flex;
+    justify-content: center;
+    background-color: ghostwhite;
+    text-align:center;
+    border: 4px solid gray;
+    flex-direction: column;
+}
+
+
+.porfol{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+#tablica{
+    justify-content: center;
+    width: 80%;
+    background-color: red;
+    border-style: dotted;
+    border: black;
+
+}
+
+#stopka{
+    height: 150px;
+   
+	
+    justify-content: center;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border: 4px solid gray;
+	color: white;
+}
+
+.project_item{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color:lightgrey;
+    border: crimson;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.project_item button{
+    border-radius: 20px;
+}
+
+/* The Modal (background) */
+.window {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: gray;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: gray;
+    color: white;
+}
+
+.cart span{
+    background-color: white;
+}
+
+.smallMenu{
+
+    display:none;
+}
+
+@media (max-width:900px){
+    .cart #btnMenuClass{
+        display:block;
+    }
+    #meeenu{
+        display:none;
+    }
+    .glowaKlas{
+        display:none;
+    }
+    .obrazyKlasa img{
+        display:none;
+    }
+
+    #tytul{
+        font-size: 20px;
+    }
+
+
+}
+
+@media (min-width:900px){
+    .cart #btnMenuClass{
+        display:none;
+    }
+
+    .cart {
+        display:none;
+    }
+
+    .smallMenu{
+
+        display:none;
+    }
+
+    #myLinks, #myLinks2{
+
+        display:none;
+    }
+    .hamburger{
+        display:none;
+    }
+
+}
+
+
+.portfelObraz{
+	 max-height: 200px;
+	
+}
