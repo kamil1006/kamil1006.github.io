@@ -1,7 +1,7 @@
 
 var p0_html_content = {
     "w1": "<p>First project. Testing Excel VBA. After that games in Android appeared.</p>",
-    "w4": "<p>Own wersion of simple game in VBA in Excel using Forms.</p>",
+    "w4": "<p>Own version of simple game in VBA in Excel using Forms.</p>",
 	"w5": "<p>Level: in Excel. Hard to say.</p>"
 	
 }
