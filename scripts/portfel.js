@@ -234,10 +234,12 @@ var p16_href3 = "https://cs50.harvard.edu/web/2020/projects/4/network/";
 
 //-------------------------------------------------------------------------------------------------------------
 
-var p17_nazwa = "4 -Capstone-miniHR";
+var p17_nazwa = "5 -Capstone-miniHR";
 var p17_html_content = {
-    "w1": "<p>Site to plan and manage employees leaves </p> ",
-   
+    "w1": "<p>Site to plan and manage employee holidays. This is my final EDX project with online course from Harvard University.",
+	 "w1a": "In my opinion, this project is very complicated and is an successful example of ",
+   "w2": " converting a real life company process into web service.</p>",
+   "w2a": "<p><a href='https://cs50.harvard.edu/web/2020/projects/4/network/'>Additional description link</a> </p>",
 	"w3": "<p>Done in python, django, html, css, javascript, jquery, REACT</p>",
 	"w5": "<p>Level: Very challenging.</p>"
 	
@@ -245,9 +247,28 @@ var p17_html_content = {
 
 var p17_href = "";
 var p17_href2 = "";
-var p17_video = "";
-var p17_href3 = "";
+var p17_video = "https://youtu.be/VaaBN2I-Vjk";
+var p17_href3 = "https://cs50.harvard.edu/web/2020/projects/final/capstone/";
 
+//-------------------------------------------------------------------------------------------------------------
+
+
+var p18_nazwa = "To do List";
+var p18_html_content = {
+    "w1": "<p>In this project, you will create a simple to-do list that can manage your tasks.</p> ",
+   
+	"w3": "<p>To complete the project, learn the basics of HTML, CSS, and JavaScript. You will work with several Javascript functions, loops, and objects. Learn how you can store the data in local storage.</p>",
+	"w5": "<p>Level: they say hard but it's not.</p>"
+	
+}
+
+var p18_href = "https://github.com/kamil1006/To_Do_List";
+var p18_href2 = "";
+var p18_video = "";
+var p18_href3 = "";
+
+
+//-------------------------------------------------------------------------------------------------------------
 
 
 
@@ -471,10 +492,21 @@ var projekt17 = {
 	name : p17_nazwa,
 	content : p17_html_content,
 	lacze : p17_href,
-	portal : "Harvard",
+	portal : "Harvard - Final Project",
 	video1: p17_video,
 	opis2: p17_href3,
 	obraz1 : p17_href2,
+	
+}
+
+var projekt18 = {
+	name : p18_nazwa,
+	content : p18_html_content,
+	lacze : p18_href,
+	portal : "JetBrains",
+	video1: p18_video,
+	opis2: p18_href3,
+	obraz1 : p18_href2,
 	
 }
 
@@ -485,25 +517,28 @@ var projekt17 = {
 //-------------------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------
 var projekty3 = [
-	projekt0,
-	projekt8,
-	projekt9,
-	projekt10,
-	projekt5,
-	projekt1,
-	projekt2,
-	projekt3,
-	projekt4,
-	
-	projekt6,
-	projekt7,
-	projekt11,
-	projekt12,
-	projekt13,
-	projekt14,
-	projekt15,
+
+	projekt17,
 	projekt16,
-	projekt17
+	projekt15,
+	projekt14,
+	projekt13,
+	projekt12,
+	projekt11,
+	projekt18,
+	projekt7,
+	projekt6,
+	projekt4,
+	projekt3,
+	projekt2,
+	projekt1,
+	projekt5,
+	projekt10,
+	projekt9,
+	projekt8,
+	projekt0
+	
+	
 	
 ];
 

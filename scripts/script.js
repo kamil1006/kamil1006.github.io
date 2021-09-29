@@ -222,19 +222,40 @@ function generujProjekty(projekty,projekty3){
 				
 		const e1 = document.createElement('div');
 		 e1.className = "project_item";
+		 
+		 const e14 = document.createElement('p');
+		 
 		 //switch(projektyPortal[w]){
             switch(projekty3[w].portal){    
 			case "Harvard":
 				  e1.setAttribute("style","background-color: #ffe6e6;");
+				  e14.innerHTML ="made with "+projekty3[w].portal;
 
 				break;
+			case "Harvard but Java":
+				  e1.setAttribute("style","background-color: #f59842;");
+				 	e14.innerHTML ="made with "+projekty3[w].portal;
+
+				break;	
+			case "Harvard - Final Project":
+				  e1.setAttribute("style","background-color: #f25a2c;");
+				 	e14.innerHTML ="made with "+projekty3[w].portal;
+
+				break;		
 			case "MSOffice":
 					 e1.setAttribute("style","background-color: lightgreen;");
+					  e14.innerHTML ="made with VBA in "+projekty3[w].portal;
 				break;
 				
 			case "Android":
 					 e1.setAttribute("style","background-color: #ffff99;");
+					  e14.innerHTML ="made with Udemy - Java and "+projekty3[w].portal;
 				break;	
+				
+				
+			default:
+				e14.innerHTML ="made with Java and "+projekty3[w].portal;			
+				break;
 			 
 		 }
 		 
@@ -252,8 +273,8 @@ function generujProjekty(projekty,projekty3){
 	
 		 
 		const e13 = document.createElement('hr');
-		const e14 = document.createElement('p');	
-		 e14.innerHTML ="made with "+projekty3[w].portal;
+			
+		
 		
 		e1.append(e11);
 		e1.append(e12);
