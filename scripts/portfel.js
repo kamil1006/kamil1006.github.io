@@ -239,7 +239,10 @@ var p17_html_content = {
     "w1": "<p>Site to plan and manage employee holidays. This is my final EDX project with online course from Harvard University.",
 	 "w1a": "In my opinion, this project is very complicated and is an successful example of ",
    "w2": " converting a real life company process into web service.</p>",
-   "w2a": "<p><a href='https://cs50.harvard.edu/web/2020/projects/4/network/'>Additional description link</a> </p>",
+   "w2a": "<p><a href='https://github.com/kamil1006/To_Do_List'>Additional description link</a> </p>",
+    "w2b": "<img src='css/images3/e.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	 "w2c": "<img src='css/images3/m.png' id='cap2png' class='pic4proj' style='width:400px;'>",
+	  "w2d": "<img src='css/images3/a.png' id='cap3png' class='pic4proj' style='width:400px;'>",
 	"w3": "<p>Done in python, django, html, css, javascript, jquery, REACT</p>",
 	"w5": "<p>Level: Very challenging.</p>"
 	
@@ -269,6 +272,23 @@ var p18_href3 = "";
 
 
 //-------------------------------------------------------------------------------------------------------------
+var p19_nazwa = "HR project";
+var p19_html_content = {
+    "w1": "<p>I wrote this project in 2020 to consolidate my knowledge of springboot, jpa, hibernate and thymeleaf.</p> ",
+   
+	"w3": "<p>I wrote few forms to save and retrieve data from mysql database.</p>",
+	"w5": "<p>Level: At that time was form me chellenging.</p>"
+	
+}
+
+var p19_href = "https://github.com/kamil1006/projekt1";
+var p19_href2 = "";
+var p19_video = "";
+var p19_href3 = "";
+
+
+//-------------------------------------------------------------------------------------------------------------
+
 
 
 
@@ -510,6 +530,16 @@ var projekt18 = {
 	
 }
 
+var projekt19 = {
+	name : p19_nazwa,
+	content : p19_html_content,
+	lacze : p19_href,
+	portal : "Udemy and java",
+	video1: p19_video,
+	opis2: p19_href3,
+	obraz1 : p19_href2,
+	
+}
 
 
 
@@ -529,6 +559,9 @@ var projekty3 = [
 	projekt7,
 	projekt6,
 	projekt4,
+	
+	projekt19,
+	
 	projekt3,
 	projekt2,
 	projekt1,

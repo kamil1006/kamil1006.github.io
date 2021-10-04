@@ -47,6 +47,46 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+
+	//------------------------------------------------------
+	var buttondetails = document.getElementById("detailjetbrains");
+	 buttondetails.addEventListener("click", function() {
+		// alert("klik");
+		
+		 var modal = document.getElementById("myModal");
+			modal.style.display = "block";
+		
+		const e1 = document.createElement('img');
+		let source = "css/images2/jetbrains1.png";
+		
+		e1.setAttribute("src",source);
+		
+		const e2 = document.createElement('div');
+		e2.className="d-flex flex-row justify-content-center";
+		
+		
+		var el2 = document.getElementById('modal-body-real');
+		e2.append(e1);
+		el2.append(e2);
+		
+		 
+	 });
+	//------------------------------------------------------
+	var buttondetails = document.getElementById("detailharvard");
+	 buttondetails.addEventListener("click", function() {
+		// alert("klik");
+		
+		 var modal = document.getElementById("myModal");
+			modal.style.display = "block";
+		
+		const e1 = document.createElement('p');
+			e1.innerHTML="soon here will be my certificate !";
+		
+		var el2 = document.getElementById('modal-body-real');
+		el2.append(e1);
+		
+		 
+	 });	//------------------------------------------------------
     //console.log("javascript!");
 
     //------------------------------------------------------
@@ -233,6 +273,7 @@ function generujProjekty(projekty,projekty3){
 
 				break;
 			case "Harvard but Java":
+			case "Udemy and java":
 				  e1.setAttribute("style","background-color: #f59842;");
 				 	e14.innerHTML ="made with "+projekty3[w].portal;
 
