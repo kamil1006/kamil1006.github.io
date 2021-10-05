@@ -94,6 +94,7 @@ var p7_href = "https://github.com/kamil1006/kamil1006.github.io";
 var p8_html_content = {
     "w1": "<p>First project in android.</p>",
     "w4": "<p>Own version of simple game Papier kamien nozyczki.</p>",
+		 "w2b": "<img src='css/images4/papier.png' id='cap1png' class='pic4proj' style='width:400px;'>",
 	"w5": "<p>Level: Android and java. Made over year ago. now it is simple but earlier...</p>"
 	
 }
@@ -109,6 +110,7 @@ var p9_nazwa = "Kółko i krzyzyk reloaded";
 var p9_html_content = {
     "w1": "<p>Second project in android.</p>",
     "w4": "<p>Own version of simple game .</p>",
+	 "w2b": "<img src='css/images4/krzyzyk.png' id='cap1png' class='pic4proj' style='width:400px;'>",
 	"w5": "<p>Level: Android and java. Made over year ago. now it is not so hard but has opponent AI .</p>"
 	
 }
@@ -123,6 +125,7 @@ var p10_nazwa = "Tajemniczy zamek";
 var p10_html_content = {
     "w1": "<p>Last project in android.</p>",
     "w4": "<p>Own version of simple game based on a Bajtek newspaper's game from 90' .</p>",
+	  "w2d": "<img src='css/images4/zamek.png' id='cap1png' class='pic4proj' style='width:400px;'>",
 	"w5": "<p>Level: Android and java. Simple.</p>"
 	
 }
@@ -137,6 +140,7 @@ var p11_nazwa = "0 - Google search";
 var p11_html_content = {
     "w1": "<p>Design a front-end for Google Search, Google Image Search, and Google Advanced Search.</p>",
     "w4": "<p>Own version of google search website made in html with css.</p>",
+	 "w2b": "<img src='css/images4/google.png' id='cap1png' class='pic4proj' style='width:400px;'>",
 	"w5": "<p>Level: Simple.</p>"
 	
 }
@@ -154,6 +158,7 @@ var p12_nazwa = "1 - Wikipedia";
 var p12_html_content = {
     "w1": "<p>Design a Wikipedia-like online encyclopedia..</p>",
     "w4": "<p>Own version of wikipedia like website made in html with css.</p>",
+	 "w2b": "<img src='css/images4/wiki.png' id='cap1png' class='pic4proj' style='width:400px;'>",
 	"w5": "<p>Level: Simple.</p>"
 	
 }
@@ -171,6 +176,8 @@ var p13_nazwa = "2 - Commerce";
 var p13_html_content = {
     "w1": "<p>Design an eBay-like e-commerce auction site that will allow users to post auction listings, place bids ",
     "w4": "on listings, comment on those listings, and add listings to a watchlist.</p>",
+	 "w2b": "<img src='css/images4/commerce1.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	 "w2c": "<img src='css/images4/commerce2.png' id='cap2png' class='pic4proj' style='width:400px;'>",
 	"w3": "<p>Done in python, django, html, css, javascript</p>",
 	"w5": "<p>Level: challenging.</p>"
 	
@@ -189,6 +196,7 @@ var p14_html_content = {
     "w1": "<p>a front-end for an email client that makes API calls to send and receive emails.</p> ",
    
 	"w3": "<p>Done in python, django, html, css, javascript</p>",
+	 "w2b": "<img src='css/images4/mail1.png' id='cap1png' class='pic4proj' style='width:400px;'>",
 	"w5": "<p>Level: challenging.</p>"
 	
 }
@@ -203,8 +211,8 @@ var p14_href3 = "https://cs50.harvard.edu/web/2020/projects/3/mail/";
 var p15_nazwa = "3a - mail - JAVA";
 var p15_html_content = {
     "w1": "<p>a front-end for an email client that makes API calls to send and receive emails.</p> ",
-   
-	"w3": "<p>Done in Java, thymeleaf, html, css, javascript</p>",
+    "w2b": "<img src='css/images4/mail1.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	"w3": "<p>Done in Java,spring security, thymeleaf, html, css, javascript, </p>",
 	"w5": "<p>Level: challenging.</p>"
 	
 }
@@ -220,7 +228,7 @@ var p15_href3 = "https://cs50.harvard.edu/web/2020/projects/3/mail/";
 var p16_nazwa = "4 - network";
 var p16_html_content = {
     "w1": "<p>a Twitter-like social network website for making posts and following users..</p> ",
-   
+    "w2b": "<img src='css/images4/network.png' id='cap1png' class='pic4proj' style='width:400px;'>",
 	"w3": "<p>Done in python, django, html, css, javascript</p>",
 	"w5": "<p>Level: challenging.</p>"
 	
@@ -243,6 +251,7 @@ var p17_html_content = {
     "w2b": "<img src='css/images3/e.png' id='cap1png' class='pic4proj' style='width:400px;'>",
 	 "w2c": "<img src='css/images3/m.png' id='cap2png' class='pic4proj' style='width:400px;'>",
 	  "w2d": "<img src='css/images3/a.png' id='cap3png' class='pic4proj' style='width:400px;'>",
+	  
 	"w3": "<p>Done in python, django, html, css, javascript, jquery, REACT</p>",
 	"w5": "<p>Level: Very challenging.</p>"
 	
@@ -275,7 +284,10 @@ var p18_href3 = "";
 var p19_nazwa = "HR project";
 var p19_html_content = {
     "w1": "<p>I wrote this project in 2020 to consolidate my knowledge of springboot, jpa, hibernate and thymeleaf.</p> ",
-   
+    "w2b": "<img src='css/images4/projekt1a.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	 "w2c": "<img src='css/images4/projekt1b.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	  "w2d": "<img src='css/images4/projekt1c.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	    "w2e": "<img src='css/images4/projekt14.png' id='cap1png' class='pic4proj' style='width:400px;'>",
 	"w3": "<p>I wrote few forms to save and retrieve data from mysql database.</p>",
 	"w5": "<p>Level: At that time was form me chellenging.</p>"
 	
