@@ -247,7 +247,7 @@ var p17_html_content = {
     "w1": "<p>Site to plan and manage employee holidays. This is my final EDX project with online course from Harvard University.",
 	 "w1a": "In my opinion, this project is very complicated and is an successful example of ",
    "w2": " converting a real life company process into web service.</p>",
-   "w2a": "<p><a href='https://github.com/kamil1006/To_Do_List'>Additional description link</a> </p>",
+   "w2a": "<p><a href='https://github.com/kamil1006/capstone/blob/master/README.md'>Additional description link</a> </p>",
     "w2b": "<img src='css/images3/e.png' id='cap1png' class='pic4proj' style='width:400px;'>",
 	 "w2c": "<img src='css/images3/m.png' id='cap2png' class='pic4proj' style='width:400px;'>",
 	  "w2d": "<img src='css/images3/a.png' id='cap3png' class='pic4proj' style='width:400px;'>",
@@ -257,9 +257,9 @@ var p17_html_content = {
 	
 }
 
-var p17_href = "";
+var p17_href = "https://github.com/kamil1006/capstone";
 var p17_href2 = "";
-var p17_video = "https://youtu.be/VaaBN2I-Vjk";
+var p17_video = "https://youtu.be/tZvgDxBNwh4";
 var p17_href3 = "https://cs50.harvard.edu/web/2020/projects/final/capstone/";
 
 //-------------------------------------------------------------------------------------------------------------
@@ -301,6 +301,30 @@ var p19_href3 = "";
 
 //-------------------------------------------------------------------------------------------------------------
 
+var p20_nazwa = "Image uploader";
+var p20_html_content = {
+    "w1": `<p>Hosting zdjęć. aplikacja posiada dwa rodzaje użytkowników,
+	 których przechowuje w bazie danych( ADMIN i USER) Po zalogowaniu admin ma możliwość dodawania zdjęć. 
+	Zalogowany użytkownk przegląda dostępne galerie. Użytkownik niezalogowany ma formatkę logowania.</p> `,
+	"w1b": `<p>Połączenie dwóch streamów w jeden projekt:
+	https://www.youtube.com/watch?v=xH6T8VQdpRo&ab_channel=PrzemekBykowski 
+	https://www.youtube.com/watch?v=M_uKo5RdCjc&ab_channel=PrzemekBykowski 
+	plus opis: https://bykowski.pl/jakie-zadanie-rekrutacyjne-moze-cie-spotkac-na-rozmowie-rekrutacyjnej/</p>`,
+    "w2b": "<img src='css/images5/img1.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	"w2c": "<img src='css/images5/img2.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	"w3": `<p>aplikacja działa w oparciu o: springboot, spring security (zabezpieczenia) vaadin( frontend),
+	 mysql( zapis danych o użytkownikach i wybranych danych o zdjęciach), 
+	 cloudinary.com - miejsce przechowywania i pobierania zdjęć poprzez API opisane na tym portalu</p>`,
+	"w5": "<p>Level: challenging :-)</p>"
+	
+}
+
+var p20_href = "https://github.com/kamil1006/springboot-vaadin-image-uploader";
+var p20_href2 = "";
+var p20_video = "https://youtu.be/Sbi6G6X4Bmo";
+var p20_href3 = "https://github.com/kamil1006/springboot-vaadin-image-uploader/blob/master/README.md";
+
+//-------------------------------------------------------------------------------------------------------------
 
 
 
@@ -553,6 +577,16 @@ var projekt19 = {
 	
 }
 
+var projekt20 = {
+	name : p20_nazwa,
+	content : p20_html_content,
+	lacze : p0_href,
+	portal : "java",
+	video1: p20_video,
+	opis2: p20_href3,
+	obraz1 : p20_href2,
+	
+}
 
 
 //-------------------------------------------------------------------------------------------------------------
@@ -560,6 +594,7 @@ var projekt19 = {
 //-------------------------------------------------------------------------------------------------------------
 var projekty3 = [
 
+	projekt20,
 	projekt17,
 	projekt16,
 	projekt15,
