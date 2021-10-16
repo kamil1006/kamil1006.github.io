@@ -580,7 +580,7 @@ var projekt19 = {
 var projekt20 = {
 	name : p20_nazwa,
 	content : p20_html_content,
-	lacze : p0_href,
+	lacze : p20_href,
 	portal : "vaadin",
 	video1: p20_video,
 	opis2: p20_href3,
