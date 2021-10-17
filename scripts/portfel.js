@@ -326,6 +326,25 @@ var p20_href3 = "https://github.com/kamil1006/springboot-vaadin-image-uploader/b
 
 //-------------------------------------------------------------------------------------------------------------
 
+var p21_nazwa = "json exchange rates";
+var p21_html_content = {
+    "w1": `<p>aplikacja web pobierająca listę walut w formacie json z adresu: 
+	https://openexchangerates.org/api/currencies.json 
+	a następnie będzie wyswietlala dla dwoch wybranych przez uzytkownika walut aktualny kurs wymiany z serisu
+	https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=USD&to_currency=JPY&apikey=demo</p>`,
+	
+    "w2b": "<img src='css/images5/img1exchange.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	
+	"w3": `<p>aplikacja działa w oparciu o: springboot, vaadin( frontend)</p>`,
+	"w5": "<p>Level: moderate :-)</p>"
+	
+}
+
+var p21_href = "https://github.com/kamil1006/exchange-currency";
+var p21_href2 = "";
+var p21_video = "https://youtu.be/e9mAcFMJWzY";
+var p21_href3 = "";
+
 
 
 
@@ -588,6 +607,17 @@ var projekt20 = {
 	
 }
 
+var projekt21 = {
+	name : p21_nazwa,
+	content : p21_html_content,
+	lacze : p21_href,
+	portal : "vaadin",
+	video1: p21_video,
+	opis2: p21_href3,
+	obraz1 : p21_href2,
+	
+}
+
 
 //-------------------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------
@@ -595,6 +625,7 @@ var projekt20 = {
 var projekty3 = [
 
 	projekt20,
+	projekt21,
 	projekt17,
 	projekt16,
 	projekt15,
