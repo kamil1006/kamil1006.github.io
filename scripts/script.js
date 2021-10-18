@@ -79,11 +79,22 @@ document.addEventListener('DOMContentLoaded', function() {
 		 var modal = document.getElementById("myModal");
 			modal.style.display = "block";
 		
-		const e1 = document.createElement('p');
-			e1.innerHTML="soon here will be my certificate !";
+		const e1 = document.createElement('a');
+			e1.innerHTML="Link to my certificate !";
+			e1.setAttribute("href","https://certificates.cs50.io/38cd877c-3cf5-4c8d-b82f-7bda84181ed2.pdf?size=A4");
+
+		const e1b = document.createElement('p');
+
+		const e1a = document.createElement('img');
+			let source = "css/images2/CS50W.png";
+			
+			e1a.setAttribute("src",source);	
+			e1a.setAttribute("style","max-width:700px;");	
 		
 		var el2 = document.getElementById('modal-body-real');
 		el2.append(e1);
+		el2.append(e1b);
+		el2.append(e1a);
 		
 		 
 	 });	//------------------------------------------------------
