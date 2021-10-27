@@ -346,6 +346,30 @@ var p21_video = "https://youtu.be/e9mAcFMJWzY";
 var p21_href3 = "";
 
 
+//-------------------------------------------------------------------------------------------------------------
+
+var p22_nazwa = "words searcher";
+var p22_html_content = {
+    "w1": `<p>JavaScript application - get words from: 
+	https://dictionaryapi.dev/ 
+	in in json format and store it in table with meaning in choosen language.
+	Then you can export this table to the EXCEL file. Export done in javascript. 
+	</p>`,
+	
+    "w2b": "<img src='css/images5/dict.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	"w2b2": `<p></p>`,
+	"w2c":'<a href="pages/words_searcher.html">Link to this page</a>',
+	"w3": `<p>Application build in: html , javascript</p>`,
+	"w5": "<p>Level: moderate :-)</p>"
+	
+}
+
+var p22_href = "";
+var p22_href2 = "";
+var p22_video = "";
+var p22_href3 = "";
+
+
 
 
 //-------------------------------------------------------------------------------------------------------------
@@ -456,7 +480,7 @@ var projekt7 = {
 	name : "Portfolio",
 	content : p7_html_content,
 	lacze : p7_href,
-	portal : "JetBrains"
+	portal : "JS and JetBrains"
 	
 }
 
@@ -578,7 +602,7 @@ var projekt18 = {
 	name : p18_nazwa,
 	content : p18_html_content,
 	lacze : p18_href,
-	portal : "JetBrains",
+	portal : "JS and JetBrains",
 	video1: p18_video,
 	opis2: p18_href3,
 	obraz1 : p18_href2,
@@ -618,12 +642,24 @@ var projekt21 = {
 	
 }
 
+var projekt22 = {
+	name : p22_nazwa,
+	content : p22_html_content,
+	lacze : p22_href,
+	portal : "JavaScript",
+	video1: p22_video,
+	opis2: p22_href3,
+	obraz1 : p22_href2,
+	
+}
+
 
 //-------------------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------
 var projekty3 = [
 
+	projekt22,
 	projekt20,
 	projekt21,
 	projekt17,

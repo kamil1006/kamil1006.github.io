@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Find a word</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+	  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	  crossorigin="anonymous">
+  
+  <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>
+  <style>
+	
+
+  
+  </style>
+  
+</head>
+<body>
+<hr>
+ <h1 style="text-align:center;">This site helps to learn english/german by finding it in dictionary using JavaScript and 
+		<strong>https://dictionaryapi.dev/</strong></h1>
+ <hr>
+ <div class="container">
+	<p class="element">How to use it:</p>
+	<ul>
+		<li class="list-item">Enter word.</li>
+		<li class="list-item">find the meaning by pressing button</li>
+		<li class="list-item">look what was founded</li>
+		<li class="list-item">export to excel file in JavaScript</li>
+		
+	</ul>
+ </div>
+ <hr>
+ <div class="container">
+	 <form id="form1">
+	  <div class="form-group">
+		<div class="d-flex flex-row align-items-center">
+			<label for="input1">Enter word in</label>
+			
+			 <div class="form-group">
+				<select class="form-control" id="select1">
+				  <option>en</option>
+				  <option>de</option>
+				</select>
+			  </div>
+			</div>
+		<input type="text" class="form-control" id="input1" aria-describedby="inputHelp" placeholder="Enter word">
+		<small id="inputHelp" class="form-text text-muted">I will try to find a word.</small>
+	  </div>
+	 
+	 <div class="d-flex justify-content-between">
+	  <button type="submit" class="btn btn-primary">Submit</button>
+	  <button type="button" class="btn btn-primary" onclick="ExportToExcel('xlsx')">Export to excel</button>
+	 </div> 
+	</form>
+ </div>
+ <hr>
+ <div class="container" id="results">
+	<table class="table table-striped table-bordered" id="results_table">
+		<tr>
+			<th>Word</th>
+			<th>Meaning</th>
+		</tr>
+	</table>
+ 
+ </div>
+ <!--	----------------------------------------------------------------------  -->
+ <!--	----------------------------------------------------------------------  -->
+
+<script src="words_searcher.js"></script>
+<script>
+
+function ExportToExcel(type, fn, dl) {
+       var elt = document.getElementById('results_table');
+       var wb = XLSX.utils.table_to_book(elt, { sheet: "sheet1" });
+       return dl ?
+         XLSX.write(wb, { bookType: type, bookSST: true, type: 'base64' }):
+         XLSX.writeFile(wb, fn || ('MyWordsFromWeb.' + (type || 'xlsx')));
+    }
+
+
+</script>
+
+  <!--	----------------------------------------------------------------------  -->
+  <!--	----------------------------------------------------------------------  -->
+</body>
+</html>

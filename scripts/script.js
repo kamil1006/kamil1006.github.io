@@ -304,7 +304,13 @@ function generujProjekty(projekty,projekty3){
 					  e14.innerHTML ="made with Udemy - Java and "+projekty3[w].portal;
 				break;	
 				
-				
+			case "JS and JetBrains" :
+			case "JavaScript":	
+					e1.setAttribute("style","background-color: #dda1ed;");
+					 e14.innerHTML ="made with "+projekty3[w].portal;
+			   break;	
+
+
 			default:
 				e14.innerHTML ="made with Java and "+projekty3[w].portal;			
 				break;
