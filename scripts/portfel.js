@@ -369,6 +369,29 @@ var p22_href2 = "";
 var p22_video = "";
 var p22_href3 = "";
 
+//-------------------------------------------------------------------------------------------------------------
+
+var p23_nazwa = "web import export excel";
+var p23_html_content = {
+    "w1": `<p>Java application - example of importing data from EXCEL file, save choosen range in MySQL database
+	read saved range from database and export to new excel file.
+	</p>`,
+	
+    "w2b": "<img src='css/images5/img1apachepoi.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	"w2b2": `<p></p>`,
+	
+	"w3": `<p>Application uses: java springboot, mysql, thymeleaf, apache poi, libre office</p>`,
+	"w5": "<p>Level: moderate :-)</p>"
+	
+}
+
+var p23_href = "https://github.com/kamil1006/exel-import-export";
+var p23_href2 = "";
+var p23_video = "https://youtu.be/89n5H12lVqM";
+var p23_href3 = "";
+
+
+//-------------------------------------------------------------------------------------------------------------
 
 
 
@@ -654,11 +677,24 @@ var projekt22 = {
 }
 
 
+var projekt23 = {
+	name : p23_nazwa,
+	content : p23_html_content,
+	lacze : p23_href,
+	portal : "Java",
+	video1: p23_video,
+	opis2: p23_href3,
+	obraz1 : p23_href2,
+	
+}
+
+
 //-------------------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------
 var projekty3 = [
 
+	projekt23,
 	projekt22,
 	projekt20,
 	projekt21,
