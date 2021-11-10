@@ -110,7 +110,7 @@ var p9_nazwa = "Kółko i krzyzyk reloaded";
 var p9_html_content = {
     "w1": "<p>Second project in android.</p>",
     "w4": "<p>Own version of simple game .</p>",
-	 "w2b": "<img src='css/images4/krzyzyk.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	 "w2b": "<img src='css/images4/krzyzyk.png' id='cap2png' class='pic4proj' style='width:400px;'>",
 	"w5": "<p>Level: Android and java. Made over year ago. now it is not so hard but has opponent AI .</p>"
 	
 }
@@ -125,7 +125,7 @@ var p10_nazwa = "Tajemniczy zamek";
 var p10_html_content = {
     "w1": "<p>Last project in android.</p>",
     "w4": "<p>Own version of simple game based on a Bajtek newspaper's game from 90' .</p>",
-	  "w2d": "<img src='css/images4/zamek.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	  "w2d": "<img src='css/images4/zamek.png' id='cap4png' class='pic4proj' style='width:400px;'>",
 	"w5": "<p>Level: Android and java. Simple.</p>"
 	
 }
@@ -140,7 +140,7 @@ var p11_nazwa = "0 - Google search";
 var p11_html_content = {
     "w1": "<p>Design a front-end for Google Search, Google Image Search, and Google Advanced Search.</p>",
     "w4": "<p>Own version of google search website made in html with css.</p>",
-	 "w2b": "<img src='css/images4/google.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	 "w2b": "<img src='css/images4/google.png' id='cap3png' class='pic4proj' style='width:400px;'>",
 	"w5": "<p>Level: Simple.</p>"
 	
 }
@@ -158,7 +158,7 @@ var p12_nazwa = "1 - Wikipedia";
 var p12_html_content = {
     "w1": "<p>Design a Wikipedia-like online encyclopedia..</p>",
     "w4": "<p>Own version of wikipedia like website made in html with css.</p>",
-	 "w2b": "<img src='css/images4/wiki.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	 "w2b": "<img src='css/images4/wiki.png' id='cap5png' class='pic4proj' style='width:400px;'>",
 	"w5": "<p>Level: Simple.</p>"
 	
 }
@@ -176,8 +176,8 @@ var p13_nazwa = "2 - Commerce";
 var p13_html_content = {
     "w1": "<p>Design an eBay-like e-commerce auction site that will allow users to post auction listings, place bids ",
     "w4": "on listings, comment on those listings, and add listings to a watchlist.</p>",
-	 "w2b": "<img src='css/images4/commerce1.png' id='cap1png' class='pic4proj' style='width:400px;'>",
-	 "w2c": "<img src='css/images4/commerce2.png' id='cap2png' class='pic4proj' style='width:400px;'>",
+	 "w2b": "<img src='css/images4/commerce1.png' id='cap6png' class='pic4proj' style='width:400px;'>",
+	 "w2c": "<img src='css/images4/commerce2.png' id='cap7png' class='pic4proj' style='width:400px;'>",
 	"w3": "<p>Done in python, django, html, css, javascript</p>",
 	"w5": "<p>Level: challenging.</p>"
 	
@@ -196,7 +196,7 @@ var p14_html_content = {
     "w1": "<p>a front-end for an email client that makes API calls to send and receive emails.</p> ",
    
 	"w3": "<p>Done in python, django, html, css, javascript</p>",
-	 "w2b": "<img src='css/images4/mail1.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+	 "w2b": "<img src='css/images4/mail1.png' id='cap8png' class='pic4proj' style='width:400px;'>",
 	"w5": "<p>Level: challenging.</p>"
 	
 }
@@ -211,7 +211,7 @@ var p14_href3 = "https://cs50.harvard.edu/web/2020/projects/3/mail/";
 var p15_nazwa = "3a - mail - JAVA";
 var p15_html_content = {
     "w1": "<p>a front-end for an email client that makes API calls to send and receive emails.</p> ",
-    "w2b": "<img src='css/images4/mail1.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+    "w2b": "<img src='css/images4/mail1.png' id='cap9png' class='pic4proj' style='width:400px;'>",
 	"w3": "<p>Done in Java,spring security, thymeleaf, html, css, javascript, </p>",
 	"w5": "<p>Level: challenging.</p>"
 	
@@ -228,7 +228,7 @@ var p15_href3 = "https://cs50.harvard.edu/web/2020/projects/3/mail/";
 var p16_nazwa = "4 - network";
 var p16_html_content = {
     "w1": "<p>a Twitter-like social network website for making posts and following users..</p> ",
-    "w2b": "<img src='css/images4/network.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+    "w2b": "<img src='css/images4/network.png' id='cap10png' class='pic4proj' style='width:400px;'>",
 	"w3": "<p>Done in python, django, html, css, javascript</p>",
 	"w5": "<p>Level: challenging.</p>"
 	
@@ -248,9 +248,9 @@ var p17_html_content = {
 	 "w1a": "In my opinion, this project is very complicated and is an successful example of ",
    "w2": " converting a real life company process into web service.</p>",
    "w2a": "<p><a href='https://github.com/kamil1006/capstone/blob/master/README.md'>Additional description link</a> </p>",
-    "w2b": "<img src='css/images3/e.png' id='cap1png' class='pic4proj' style='width:400px;'>",
-	 "w2c": "<img src='css/images3/m.png' id='cap2png' class='pic4proj' style='width:400px;'>",
-	  "w2d": "<img src='css/images3/a.png' id='cap3png' class='pic4proj' style='width:400px;'>",
+    "w2b": "<img src='css/images3/e.png' id='cap11png' class='pic4proj' style='width:400px;'>",
+	 "w2c": "<img src='css/images3/m.png' id='cap12png' class='pic4proj' style='width:400px;'>",
+	  "w2d": "<img src='css/images3/a.png' id='cap13png' class='pic4proj' style='width:400px;'>",
 	  
 	"w3": "<p>Done in python, django, html, css, javascript, jquery, REACT</p>",
 	"w5": "<p>Level: Very challenging.</p>"
@@ -284,10 +284,10 @@ var p18_href3 = "";
 var p19_nazwa = "HR project";
 var p19_html_content = {
     "w1": "<p>I wrote this project in 2020 to consolidate my knowledge of springboot, jpa, hibernate and thymeleaf.</p> ",
-    "w2b": "<img src='css/images4/projekt1a.png' id='cap1png' class='pic4proj' style='width:400px;'>",
-	 "w2c": "<img src='css/images4/projekt1b.png' id='cap1png' class='pic4proj' style='width:400px;'>",
-	  "w2d": "<img src='css/images4/projekt1c.png' id='cap1png' class='pic4proj' style='width:400px;'>",
-	    "w2e": "<img src='css/images4/projekt14.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+    "w2b": "<img src='css/images4/projekt1a.png' id='cap14apng' class='pic4proj' style='width:400px;'>",
+	 "w2c": "<img src='css/images4/projekt1b.png' id='cap14png' class='pic4proj' style='width:400px;'>",
+	  "w2d": "<img src='css/images4/projekt1c.png' id='cap15png' class='pic4proj' style='width:400px;'>",
+	    "w2e": "<img src='css/images4/projekt14.png' id='cap16png' class='pic4proj' style='width:400px;'>",
 	"w3": "<p>I wrote few forms to save and retrieve data from mysql database.</p>",
 	"w5": "<p>Level: At that time was form me chellenging.</p>"
 	
@@ -310,8 +310,8 @@ var p20_html_content = {
 	https://www.youtube.com/watch?v=xH6T8VQdpRo&ab_channel=PrzemekBykowski 
 	https://www.youtube.com/watch?v=M_uKo5RdCjc&ab_channel=PrzemekBykowski 
 	plus opis: https://bykowski.pl/jakie-zadanie-rekrutacyjne-moze-cie-spotkac-na-rozmowie-rekrutacyjnej/</p>`,
-    "w2b": "<img src='css/images5/img1.png' id='cap1png' class='pic4proj' style='width:400px;'>",
-	"w2c": "<img src='css/images5/img2.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+    "w2b": "<img src='css/images5/img1.png' id='cap17png' class='pic4proj' style='width:400px;'>",
+	"w2c": "<img src='css/images5/img2.png' id='cap18png' class='pic4proj' style='width:400px;'>",
 	"w3": `<p>aplikacja działa w oparciu o: springboot, spring security (zabezpieczenia) vaadin( frontend),
 	 mysql( zapis danych o użytkownikach i wybranych danych o zdjęciach), 
 	 cloudinary.com - miejsce przechowywania i pobierania zdjęć poprzez API opisane na tym portalu</p>`,
@@ -333,7 +333,7 @@ var p21_html_content = {
 	a następnie będzie wyswietlala dla dwoch wybranych przez uzytkownika walut aktualny kurs wymiany z serisu
 	https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=USD&to_currency=JPY&apikey=demo</p>`,
 	
-    "w2b": "<img src='css/images5/img1exchange.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+    "w2b": "<img src='css/images5/img1exchange.png' id='cap19png' class='pic4proj' style='width:400px;'>",
 	
 	"w3": `<p>aplikacja działa w oparciu o: springboot, vaadin( frontend)</p>`,
 	"w5": "<p>Level: moderate :-)</p>"
@@ -356,7 +356,7 @@ var p22_html_content = {
 	Then you can export this table to the EXCEL file. Export done in javascript. 
 	</p>`,
 	
-    "w2b": "<img src='css/images5/dict.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+    "w2b": "<img src='css/images5/dict.png' id='cap20png' class='pic4proj' style='width:400px;'>",
 	"w2b2": `<p></p>`,
 	"w2c":'<a href="pages/words_searcher.html">Link to this page</a>',
 	"w3": `<p>Application build in: html , javascript</p>`,
@@ -377,7 +377,7 @@ var p23_html_content = {
 	read saved range from database and export to new excel file.
 	</p>`,
 	
-    "w2b": "<img src='css/images5/img1apachepoi.png' id='cap1png' class='pic4proj' style='width:400px;'>",
+    "w2b": "<img src='css/images5/img1apachepoi.png' id='cap21png' class='pic4proj' style='width:400px;'>",
 	"w2b2": `<p></p>`,
 	
 	"w3": `<p>Application uses: java springboot, mysql, thymeleaf, apache poi, libre office</p>`,
@@ -392,6 +392,29 @@ var p23_href3 = "";
 
 
 //-------------------------------------------------------------------------------------------------------------
+
+var p24_nazwa = "exchange rates with google graph";
+var p24_html_content = {
+    "w1": `<p>Java application - example of importing data from json format, save data in H2 database,
+	and present it on web page using google graph.
+	</p>`,
+	"w2a": "<img src='css/images6/chart1.png' id='cap22ng' class='pic4proj' style='width:400px;'>",
+    "w2b": "<img src='css/images6/chart2.png' id='cap23png' class='pic4proj' style='width:400px;'>",
+	"w2b2": `<p></p>`,
+	
+	"w3": `<p>Project done in java springboot,thymeleaf, h2 database, thymeleaf with javascript. For visual presentation is used google chart.</p>`,
+	"w5": "<p>Level: moderate :-)</p>"
+	
+}
+
+var p24_href = "https://github.com/kamil1006";
+var p24_href2 = "";
+var p24_video = "https://youtu.be/FpymMx7OF3k";
+var p24_href3 = "";
+
+
+//-------------------------------------------------------------------------------------------------------------
+
 
 
 
@@ -689,11 +712,23 @@ var projekt23 = {
 }
 
 
+var projekt24 = {
+	name : p24_nazwa,
+	content : p24_html_content,
+	lacze : p24_href,
+	portal : "Java",
+	video1: p24_video,
+	opis2: p24_href3,
+	obraz1 : p24_href2,
+	
+}
+
 //-------------------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------------------------------------
 var projekty3 = [
 
+	projekt24,
 	projekt23,
 	projekt22,
 	projekt20,
