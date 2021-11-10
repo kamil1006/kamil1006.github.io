@@ -402,12 +402,12 @@ var p24_html_content = {
     "w2b": "<img src='css/images6/chart2.png' id='cap23png' class='pic4proj' style='width:400px;'>",
 	"w2b2": `<p></p>`,
 	
-	"w3": `<p>Project done in java springboot,thymeleaf, h2 database, thymeleaf with javascript. For visual presentation is used google chart.</p>`,
+	"w3": `<p>Project done in java springboot, h2 database, thymeleaf with javascript. For visual presentation is used google chart.</p>`,
 	"w5": "<p>Level: moderate :-)</p>"
 	
 }
 
-var p24_href = "https://github.com/kamil1006";
+var p24_href = "https://github.com/kamil1006/exchange-rates-graphs";
 var p24_href2 = "";
 var p24_video = "https://youtu.be/FpymMx7OF3k";
 var p24_href3 = "";
