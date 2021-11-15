@@ -312,7 +312,7 @@ function generujProjekty(projekty,projekty3){
 
 			case "Java":
 				
-				 e14.innerHTML ="made with"+projekty3[w].portal;
+				 e14.innerHTML ="made with "+projekty3[w].portal;
 		   break;   
 
 			default:
