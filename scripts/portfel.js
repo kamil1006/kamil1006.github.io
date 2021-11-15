@@ -419,12 +419,12 @@ var p25_html_content = {
     "w1": `<p>Java rest web application - example of exchanging json object from postman to service, store data
 	in h2 database, use spring security basic authentication.
 	Example of implemented functionalities:
-	POST /api/recipe/new receives a recipe as a JSON object and returns a JSON object with one id field;
-	GET /api/recipe/{id} returns a recipe with a specified id as a JSON object;
-	DELETE /api/recipe/{id} deletes a recipe with a specified id.
-	PUT /api/recipe/{id} receives a recipe as a JSON object and updates a recipe with a specified id.
-	GET /api/recipe/search takes one of the two mutually exclusive query parameters
-	POST /api/register receives a JSON object with two fields: email (string), and password (string)
+	\nPOST /api/recipe/new receives a recipe as a JSON object and returns a JSON object with one id field;
+	\nGET /api/recipe/{id} returns a recipe with a specified id as a JSON object;
+	\nDELETE /api/recipe/{id} deletes a recipe with a specified id.
+	\nPUT /api/recipe/{id} receives a recipe as a JSON object and updates a recipe with a specified id.
+	\nGET /api/recipe/search takes one of the two mutually exclusive query parameters
+	\nPOST /api/register receives a JSON object with two fields: email (string), and password (string)
 	</p>`,
 	
 	"w2b2": `<p></p>`,
